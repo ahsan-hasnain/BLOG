@@ -1,0 +1,121 @@
+*{
+   
+}
+body{
+    font-family: "Trirong", serif;
+    color: rgb(0, 0, 0);
+    background-size: 99%;
+    background-color: #ffffff;
+}
+.new-post{
+    border-left: 0.8px solid black;
+    margin-inline-start: 60%;
+    position: fixed;
+    text-align: center;
+    padding-inline-start: 30px;
+    padding-top: 40px;
+    height: 99%;
+}
+#form{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+#content,#username,#caption{
+    margin: 30px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(41, 40, 38);
+    width: 300px;
+    height: 40px;
+    padding: 9px;
+}
+#header{
+}
+#create-post{
+    border-radius: 5px;
+    background-color: tomato;
+    color: aliceblue;
+    cursor: pointer;
+}
+#posts{
+    margin-inline-start: 5%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns:  25% 25%;
+}
+#name, #post-footer{
+    padding-inline-start: 5px;
+}
+.postbox{
+    box-sizing: border-box;
+    border: 0.4px solid rgb(82, 50, 50);
+    width: 250px;
+    border-radius: 8px;
+    background-color: rgb(43, 42, 42);
+    margin-bottom: 5rem;
+    color: rgb(255, 247, 247);
+    box-shadow: 3px 3px 4px gray;
+}
+#post-content{
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    color: rgb(17, 16, 16);
+    height: fit-content;
+    word-wrap: break-word;
+    padding-inline-start: 9px;
+    margin-inline: 5px;
+    padding-bottom: 9px;
+    padding-inline-end: 9px;
+}
+#heart-btn{
+    color: tomato; 
+    cursor:pointer; 
+}
+.like-comment-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-inline-end: 9px;
+}
+.comment{
+    width: 70%;
+    border: none;
+    background-color:  rgb(43, 42, 42);
+    border-bottom: 2px solid black;
+}
+#send-comment{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-inline-end: 9px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+#save{
+    background-color: tomato;
+    border: 0.9px solid black;
+    width: 50px;
+    margin-bottom: 2rem;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+#comment-btn{
+    background-color: tomato;
+    border: none;
+    width: 25%;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+/******************************/
+.postbox:hover{
+    box-sizing: border-box;
+    box-shadow: 7px 7px 7px gray;
+    transition: 0.3s;
+}
+#create-post:hover, #comment-btn:hover{
+    background-color: rgb(218, 79, 55);
+    transition: 0.3s;
+}

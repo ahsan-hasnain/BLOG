@@ -1,0 +1,227 @@
+{
+  "users": [
+    {
+      "username": "ahsan",
+      "password": "786",
+      "id": 1
+    },
+    {
+      "username": "mohsin",
+      "password": "678",
+      "id": 2
+    },
+    {
+      "username": "john",
+      "password": "777",
+      "id": 3
+    },
+    {
+      "username": "new user",
+      "password": "345",
+      "id": 4
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "content": "Witnessing the serene beauty of the forest at sunrise is truly magical. 🌅 Nature's symphony fills the air with tranquil melodies. #NatureLover",
+      "username": "nature_enthusiast",
+      "caption": "Exploring the Art of Nature",
+      "likes": [
+        "mohsin",
+        "john",
+        "new user"
+      ],
+      "comments": [
+        {
+          "username": "adventure_seeker",
+          "comment": "Absolutely breathtaking! I need to visit this place."
+        },
+        {
+          "username": "outdoor_lover",
+          "comment": "Nature has its own way of calming the soul. Beautiful shot!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "content": "From smartphones to smartwatches, our lives are intertwined with tech. Which gadgets do you rely on daily? 📱💻 #TechLife",
+      "username": "gadget_guru",
+      "caption": "Tech Gadgets We Can't Live Without",
+      "likes": [
+        "john",
+        "new user"
+      ],
+      "comments": [
+        {
+          "username": "tech_enthusiast",
+          "comment": "I can't imagine a day without my smartphone! It's like an extension of me."
+        },
+        {
+          "username": "gadget_lover",
+          "comment": "Tech gadgets have revolutionized our lives. They keep us connected and productive."
+        },
+        {
+          "comment": "jk",
+          "username": "someone"
+        },
+        {
+          "comment": "new comment",
+          "username": "ahsan"
+        },
+        {
+          "comment": "comment",
+          "username": "mohsin"
+        },
+        {
+          "comment": "my comment",
+          "username": "new user"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "content": "Roaming the ancient streets of Rome, you can feel the echoes of history. 🏛️✨ #TravelAdventures",
+      "username": "history_buff",
+      "caption": "Traveling Back in Time: A Visit to Historical Rome",
+      "likes": [],
+      "comments": [
+        {
+          "username": "travel_explorer",
+          "comment": "Rome is a living museum. The history here is incredible!"
+        },
+        {
+          "username": "history_lover",
+          "comment": "I dream of exploring Rome one day. Your post is inspiring!"
+        },
+        {
+          "comment": "new comment",
+          "username": "someone"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "content": "Start your journey to a greener lifestyle with simple changes at home. 🌱💚 #Sustainability",
+      "username": "eco_warrior",
+      "caption": "Sustainable Living: Small Steps, Big Impact",
+      "likes": [],
+      "comments": [
+        {
+          "username": "green_activist",
+          "comment": "Every small step counts. Let's make the planet a better place!"
+        },
+        {
+          "username": "sustainability_advocate",
+          "comment": "Reducing waste and conserving energy are key. Thanks for the tips!"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "content": "There's a special joy in creating delicious meals from scratch. What's your favorite dish to cook? 🍳👩‍🍳 #CookingPassion",
+      "username": "culinary_artist",
+      "caption": "The Joy of Cooking: A Culinary Adventure",
+      "likes": [],
+      "comments": [
+        {
+          "username": "foodie_delight",
+          "comment": "Cooking is an art. What's your signature dish?"
+        },
+        {
+          "username": "chef_inspired",
+          "comment": "I find cooking to be therapeutic. It's a true joy!"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "content": "\"The only way to do great work is to love what you do.\" – Steve Jobs. Share your favorite inspirational quote! ✨ #Inspiration",
+      "username": "inspiration_seeker",
+      "caption": "Inspiring Quotes to Brighten Your Day",
+      "likes": [],
+      "comments": [
+        {
+          "username": "positive_vibes",
+          "comment": "I live by this quote! It's all about passion and love for what you do."
+        },
+        {
+          "username": "inspiration_lover",
+          "comment": "Quotes like these light up my day. Thanks for sharing!"
+        },
+        {
+          "comment": "my comment",
+          "username": "mohsin"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "content": "Snorkeling through the crystal-clear waters of the Great Barrier Reef is a dream come true. 🐠🏝️ #TravelGoals",
+      "username": "underwater_explorer",
+      "caption": "Exploring the Great Barrier Reef",
+      "likes": [],
+      "comments": [
+        {
+          "username": "ocean_adventurer",
+          "comment": "The Great Barrier Reef is a true wonder of the world. What did you see?"
+        },
+        {
+          "username": "nature_observer",
+          "comment": "This is on my bucket list. Looks amazing!"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "content": "In the midst of chaos, find your inner sanctuary. How do you seek tranquility in your daily life? 🧘‍♂️🌸 #PeacefulMind",
+      "username": "mindfulness_seeker",
+      "caption": "Finding Peace in a Chaotic World",
+      "likes": [],
+      "comments": [
+        {
+          "username": "inner_peace",
+          "comment": "Meditation and mindfulness practices help me find peace within."
+        },
+        {
+          "username": "stress_relief",
+          "comment": "It's essential to take a step back and breathe. Thanks for the reminder!"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "content": "The vibrant colors of autumn leaves create a breathtaking tapestry. 🍁🍂 #AutumnBeauty",
+      "username": "autumn_lover",
+      "caption": "The Magic of Autumn: Fall Foliage",
+      "likes": [],
+      "comments": [
+        {
+          "username": "leaf_watcher",
+          "comment": "Autumn is my favorite season. The colors are mesmerizing."
+        },
+        {
+          "username": "fall_enthusiast",
+          "comment": "I love taking long walks through the falling leaves. So peaceful!"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "content": "Gazing at the night sky, you can't help but wonder about the mysteries of the universe. ✨🔭 #Astronomy",
+      "username": "stargazing_adventurer",
+      "caption": "Exploring the Cosmos: Stargazing Adventures",
+      "likes": [],
+      "comments": [
+        {
+          "username": "cosmic_wanderer",
+          "comment": "Stargazing opens up a world of wonders. Have you seen any planets?"
+        },
+        {
+          "username": "night_sky_lover",
+          "comment": "The universe is so vast, it's awe-inspiring!"
+        }
+      ]
+    }
+  ]
+}
