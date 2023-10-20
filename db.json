@@ -1,26 +1,5 @@
 {
-  "users": [
-    {
-      "username": "ahsan",
-      "password": "786",
-      "id": 1
-    },
-    {
-      "username": "mohsin",
-      "password": "678",
-      "id": 2
-    },
-    {
-      "username": "john",
-      "password": "777",
-      "id": 3
-    },
-    {
-      "username": "new user",
-      "password": "345",
-      "id": 4
-    }
-  ],
+ 
   "posts": [
     {
       "id": 1,
@@ -30,7 +9,8 @@
       "likes": [
         "mohsin",
         "john",
-        "new user"
+        "new user",
+        "ahsan"
       ],
       "comments": [
         {
@@ -50,7 +30,8 @@
       "caption": "Tech Gadgets We Can't Live Without",
       "likes": [
         "john",
-        "new user"
+        "new user",
+        "ahsan"
       ],
       "comments": [
         {
